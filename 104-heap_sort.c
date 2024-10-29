@@ -8,11 +8,11 @@
  * @i: The first index.
  * @j: The second index.
  */
-void swap(int *array, int i, int j)
+void swap(int *array, int a, int b)
 {
-	int temp = array[i];
-	array[i] = array[j];
-	array[j] = temp;
+	int temp = array[a];
+	array[a] = array[b];
+	array[b] = temp;
 }
 
 /**
