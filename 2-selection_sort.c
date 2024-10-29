@@ -2,8 +2,14 @@
 #include <stddef.h>
 #include "sort.h"
 
-void print_array(int *array, size_t size);
-
+/**
+ * selection_sort - Creates a doubly linked list from an array of integers
+ *
+ * @array: Array to convert to a doubly linked list
+ * @size: Size of the array
+ *
+ * Return: Pointer to the first element of the created list. NULL on failure
+ */
 void selection_sort(int *array, size_t size)
 {
 	unsigned int i, j, min_idx;
