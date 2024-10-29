@@ -1,0 +1,4 @@
+O(n)  # in the best case
+O(n)  # in the average case
+O(n)  # in the worst case
+
