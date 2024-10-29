@@ -28,7 +28,7 @@ void swap_nodes(listint_t *a, listint_t *b)
 	a->prev = b;
 
 	if (!b->prev)
-		*b = *a; // Update the head if necessary
+		*b = *a;
 
 	print_list(a);
 }
@@ -52,7 +52,7 @@ void insertion_sort_list(listint_t **list)
 		while (insert_pos && current->n < insert_pos->n)
 		{
 			swap_nodes(insert_pos, current);
-			if (!current->prev) // If current is now the new head
+			if (!current->prev)
 				*list = current;
 			insert_pos = current->prev;
 		}
