@@ -37,6 +37,9 @@ void merge_sort(int *array, size_t size);
 void sift_down(int *array, size_t size, size_t root, size_t max);
 void heapify(int *array, size_t size);
 void heap_sort(int *array, size_t size);
+int get_max(int *array, size_t size);
+void counting_sort(int *array, size_t size, int exp);
+void radix_sort(int *array, size_t size);
 
 #endif /* SORT_H */
 
