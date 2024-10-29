@@ -5,8 +5,8 @@
 /**
  * swap - swaps two elements in an array.
  * @array: The array of integers.
- * @i: The first index.
- * @j: The second index.
+ * @a: The first index.
+ * @b: The second index.
  */
 void swap(int *array, int a, int b)
 {
