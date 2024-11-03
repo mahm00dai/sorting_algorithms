@@ -28,7 +28,8 @@ void swap(int *array, int a, int b);
 int partition(int *array, int low, int high);
 void quick_sort_recursive(int *array, int low, int high);
 void shell_sort(int *array, size_t size);
-void swap_nodes(listint_t *node_a, listint_t *node_b, listint_t **list);
+void swap_nodes(listint_t *a, listint_t *b);
+/*void swap_nodes(listint_t *node_a, listint_t *node_b, listint_t **list);*/
 void cocktail_sort_list(listint_t **list);
 /*void counting_sort(int *array, size_t size);*/
 void merge(int *array, size_t left, size_t mid, size_t right);
